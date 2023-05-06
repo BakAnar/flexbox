@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  /* column row-reverse column-reverse */
+    justify-content: left; /* center space-between space-around */
+height: 500px;
+background-color: blue;
+align-items: stretch; /* center flex-end */
+align-content: flex-end;  /* flex-start stretch  */
+
+}
+
+.intern {
+    border: solid black 2px;
+    width: 200px;
+    height: 100px;
+
+}
